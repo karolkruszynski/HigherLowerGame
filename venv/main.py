@@ -18,8 +18,8 @@ def versus():
 def number_lottery_a():
     global checked_a_num
     data_lenght = len(game_data.data)
-    # compare_a_number = random.randint(0,data_lenght-1)
-    compare_a_number = random.randint(0,3)
+    compare_a_number = random.randint(0,data_lenght-1)
+    # compare_a_number = random.randint(0,3)
     # print(compare_a_number)
     checked_a_num = compare_a_number
     return compare_a_number
@@ -28,8 +28,8 @@ def number_lottery_a():
 def number_lottery_b():
     global checked_b_num
     data_lenght = len(game_data.data)
-    # compare_b_number = random.randint(0, data_lenght-1)
-    compare_b_number = random.randint(0,3)
+    compare_b_number = random.randint(0, data_lenght-1)
+    # compare_b_number = random.randint(0,3)
     # print(compare_b_number)
     checked_b_num = compare_b_number
     return compare_b_number
